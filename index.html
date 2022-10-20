@@ -1,70 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- STYLES CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/97248c65c4.js" crossorigin="anonymous"></script>
+
+  <!-- FAVICON -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- TITLE -->
+  <title>Huddle - Home</title>
 </head>
 <body>
+  <header class="header">
+    <nav class="header-navbar">
+      <a href="#"><img src="images/logo.svg" alt="Huddle Logo" class="navbar-logo"></a>
+      <button class="navbar-button">Experimente de graça</button>
+    </nav>
+    <div class="header-content">
+      <div class="header-texts">
+        <h1 class="header-title">Construa a comunidade que seus fãs vão adorar</h1>
+        <p class="header-paragraph">Huddle re-imagina a forma como construímos comunidades. Você tem uma voz, mas o seu público também. Crie conexões com seus usuários à medida que você se envolve em uma discussão genuína.</p>
+        <button class="header-button">Comece de graça</button>
+      </div>
+      <div class="header-image">
+        <img src="images/illustration-mockups.svg" alt="Mockups image" class="header-img">
+      </div>
+    </div>
+  </header>
 
-  Try It Free
+  <main class="main">
+    <div class="primary-content">
+      <div class="primary-texts">
+        <h3 class="primary-title title">Crescer juntos</h3>
+        <p class="primary-paragraph paragraph">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. </p>
+      </div>
+      <div class="primary-image">
+        <img src="images/illustration-grow-together.svg" alt="Grow Together" class="primary-img">
+      </div>
+    </div>
+    <div class="secondary-content">
+      <div class="secondary-texts">
+        <h3 class="secondary-title title">Conversas fluidas</h3>
+        <p class="secondary-paragraph paragraph">Você não paginaria uma conversa na vida real, então por que fazer isso online? Nossas roscas têm carregamento just-in-time para um fluxo mais natural.</p>
+      </div>
+      <div class="secondary-image">
+        <img src="images/illustration-flowing-conversation.svg" alt="Flow Conversations" class="secondary-img">
+      </div>
+    </div>
+    <div class="tertiary-content">
+      <div class="tertiary-texts">
+        <h3 class="tertiary-title title">Seus usuários</h3>
+        <p class="tertiary-paragraph paragraph">Não leva muito tempo para integrar o Huddle à solução de autenticação do seu aplicativo. Isso significa que, uma vez conectado ao seu aplicativo, seus usuários podem começar a conversar imediatamente.</p>
+      </div>
+      <div class="tertiary-image">
+        <img src="images/illustration-your-users.svg" alt="Your Users" class="tertiary-img">
+      </div>
+    </div>
+    <div class="overlap-content">
+      <div class="overlap-texts">
+        <h2 class="overlap-title">Pronto para construir sua comunidade?</h2>
+        <button class="overlap-button">Comece de graça</button>
+      </div>
+    </div>
+  </main>
 
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Get Started For Free
-
-  Grow Together
-
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+  <footer class="footer">
+    <div class="footer-about">
+      <img src="images/footer-logo.svg" alt="" class="footer-logo">
+      <div class="footer-location">
+        <i class="fa-sharp fa-solid fa-location-dot"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      </div>
+      <div class="footer-phone">
+        <i class="fa-solid fa-phone-volume"></i>
+        <p>+1-543-123-4567</p>
+      </div>
+      <div class="footer-email">
+        <i class="fa-solid fa-envelope"></i>
+        <p>exemplo@huddle.com</p>
+      </div>
+    </div>
+    <div class="footer-anchors01">
+      <a href="#" class="anchors">Sobre Nós</a>
+      <a href="#" class="anchors">O que nós fazemos</a>
+      <a href="#" class="anchors">FAQ</a>
+    </div>
+    <div class="footer-anchors02">
+      <a href="#" class="anchors">Carreira</a>
+      <a href="#" class="anchors">Blog</a>
+      <a href="#" class="anchors">Contate-nos</a>
+    </div>
+    <div class="footer-socials">
+      <div class="socials">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="copy">
+        <p class="copy-paragraph">&copy; Copyright 2022 Huddle, By: <a href="https://github.com/wallacycaike" class="wachiles" target="_blank">Wachiles</a></p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
