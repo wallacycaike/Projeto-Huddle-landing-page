@@ -1,5 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// IMPORTS
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+@import "./variables.scss";
+
+@import "./mixins.scss";
+
+@import "./globals.scss";
+
+@import "./home.scss";

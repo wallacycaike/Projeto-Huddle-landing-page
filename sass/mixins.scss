@@ -1,0 +1,19 @@
+@mixin button-action {
+    height: 40px;
+    width: 250px;
+    background-color: $pink;
+    border: 0;
+    border-radius: 30px;
+    color: $pale-cyan;
+    font-weight: 700;
+}
+
+@mixin container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
+@mixin container-img{
+    max-width: 600px;
+}
