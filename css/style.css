@@ -76,7 +76,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .header .header-content {
     flex-direction: row;
     justify-content: space-between;
@@ -87,7 +87,7 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .header .header-content .header-texts {
     text-align: start;
   }
@@ -144,7 +144,7 @@ body {
   padding: 0px 30px;
   text-align: center;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .main {
     text-align: start;
   }
@@ -157,7 +157,7 @@ body {
   border-radius: 10px;
   box-shadow: 1px 1px 10px lightgray;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .main .primary-content {
     width: 100%;
     padding: 30px 60px;
@@ -205,7 +205,7 @@ body {
   border-radius: 10px;
   box-shadow: 1px 1px 10px lightgray;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .main .secondary-content {
     width: 100%;
     padding: 30px 60px;
@@ -253,7 +253,7 @@ body {
   border-radius: 10px;
   box-shadow: 1px 1px 10px lightgray;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .main .tertiary-content {
     width: 100%;
     padding: 30px 60px;

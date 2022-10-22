@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click Here!](https://www.frontendmentor.io/solutions/huddle-landing-page-ptbr-html-css-sass-MNZ7uL3wg-)
+- Live Site URL: [Click Here!](https://wat-huddle.vercel.app/)
 
 ## My process
 

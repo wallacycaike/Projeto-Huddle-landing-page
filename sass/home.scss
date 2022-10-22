@@ -68,7 +68,7 @@
         padding-top: 40px;
         padding-bottom: 40px;
 
-        @media (min-width: 1300px){
+        @media (min-width: 1200px){
             flex-direction: row;
             justify-content: space-between;
         }
@@ -78,7 +78,7 @@
             text-align: center;
             margin-bottom: 50px;
 
-            @media (min-width: 1300px){
+            @media (min-width: 1200px){
                 text-align: start;
             }
 
@@ -127,14 +127,14 @@
     padding: 0px 30px;
     text-align: center;
 
-    @media (min-width: 1400px){
+    @media (min-width: 1200px){
         text-align: start;
     }
 
     .primary-content{
         @include contents;
 
-        @media (min-width: 1300px){
+        @media (min-width: 1200px){
             width: 100%;
             padding: 30px 60px;
             flex-direction: row;
@@ -180,7 +180,7 @@
     .secondary-content{
         @include contents;
 
-        @media (min-width: 1300px){
+        @media (min-width: 1200px){
             width: 100%;
             padding: 30px 60px;
             flex-direction: row-reverse;
@@ -226,7 +226,7 @@
     .tertiary-content{
         @include contents;
 
-        @media (min-width: 1300px){
+        @media (min-width: 1200px){
             width: 100%;
             padding: 30px 60px;
             flex-direction: row;
